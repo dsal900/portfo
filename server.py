@@ -29,6 +29,3 @@ def submit_form():
         write_to_csv(data)
         return redirect('/thankyou.html')
     return 'Try again.'
-
-
-app.run('127.0.0.1', debug=True)
